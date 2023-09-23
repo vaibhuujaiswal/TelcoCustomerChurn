@@ -1,6 +1,6 @@
 # TelcoCustomerChurn
 
-This is taken from the kaggle competition : https://www.kaggle.com/datasets/blastchar/telco-customer-churn
+This is taken from the kaggle competition: https://www.kaggle.com/datasets/blastchar/telco-customer-churn
 
 I have preprocessed the data and answered the questions : 
 
@@ -18,7 +18,7 @@ they prefer to purchase ? If so, list those correlations.
 6. Can you use any dimensionality reduction technique to reduce features ? Also could
 you visualize the entire data as cluster points in a 2 dimensional graph.
 
-Build a Model to predict churn of a customer:
+Build a Model to predict churn of a customer: (Present in Model 1 and Model 2)
 We trained the model on the training set. Once the model is trained we
 evaluate it on a held-out test set using metrics such as, Accuracy, AUROC and F1 score.
 Also show the confusion matrix. 
@@ -27,3 +27,5 @@ not.
 
 2. built a simple recommender system based on apriori customer features to suggest which plan or plan type will best suit a customer from the test set, given if
 they were to be a new customer with no prior purchases or history of transaction. - use this to write a readme for github repository containing the solution
+
+Merged.ipynb file - Contains the combination of the first 4 files
